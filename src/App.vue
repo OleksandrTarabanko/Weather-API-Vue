@@ -59,6 +59,8 @@ export default {
   </div> -->
 
   <WeatherCard v-for="card in cards" :on-delete="deleteCard" :city="card.city" :country="card.country" :id="card.id" />
+  <!-- TODO -->
+  <!-- :on-delete="()=>deleteCard(card.id)" -->
 </template>
 
 <style scoped></style>

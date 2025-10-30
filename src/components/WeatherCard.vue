@@ -56,6 +56,7 @@ export default {
 </script>
 
 <template>
+
     <div v-if="temperature" class="main-div">
         <div class="element-div">
             <h2>You're lookig for weather in {{ location }}</h2>
